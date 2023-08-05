@@ -1,0 +1,42 @@
+git init: Initializes a new Git repository in the current directory. It creates a .git subdirectory to store Git-related data.
+
+git clone <repository_url>: Creates a local copy of a remote repository from the specified URL. It's used to obtain an existing repository.
+
+git add <file(s)>: Adds the specified file(s) to the staging area, preparing them to be included in the next commit.
+
+git status: Displays the status of the working directory and the staging area, showing which files are modified and which are staged for commit.
+
+git commit -m "Commit message": Commits the changes in the staging area to the Git repository with a descriptive message.
+
+git push: Uploads local commits to the remote repository, updating the branch on the remote with the latest changes.
+
+git pull: Fetches changes from the remote repository and merges them into the current branch.
+
+git branch: Lists all branches in the repository. The current branch is indicated with an asterisk.
+
+git checkout <branch_name>: Switches to the specified branch.
+
+git merge <branch_name>: Merges the specified branch into the current branch.
+
+git log: Displays the commit history, showing the commit messages, authors, dates, and commit IDs.
+
+git remote -v: Lists the remote repositories associated with the current repository.
+
+git remote add <name> <repository_url>: Adds a new remote repository with the specified name and URL.
+
+git diff: Shows the differences between the working directory and the staging area.
+
+git reset <file(s)>: Removes the specified file(s) from the staging area, without discarding changes in the working directory.
+
+git reset --hard: Discards all changes in the working directory and staging area to revert to the last committed state.
+
+git stash: Temporarily stores changes that are not ready to be committed, allowing you to switch branches without losing your work.
+
+git branch -d <branch_name>: Deletes the specified branch.
+
+These are just some of the most commonly used Git commands. Git is a powerful tool with many other features and options. You can explore further by using git --help or consulting the official Git documentation.
+
+
+
+
+
